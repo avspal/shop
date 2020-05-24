@@ -19,9 +19,9 @@ import { CoreModule } from './core/core.module';
     AppRouteModule,
     HttpClientModule,
     SharedModule,
-    ShoppingListModule,
     AuthModule,
-    CoreModule
+    CoreModule,
+    ShoppingListModule
   ],
   bootstrap: [AppComponent]
 })

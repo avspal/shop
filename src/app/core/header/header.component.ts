@@ -12,16 +12,16 @@ export class HeaderComponent{
                 private authService: AuthService){}
 
     onSaveData(){
-        this.dataStorage.storeRecipes().subscribe(
-            (response)=>console.log(response)
-        );
+        // this.dataStorage.storeRecipes().subscribe(
+        //     (response)=>console.log(response)
+        // );
     }
 
     onFetchData(){
-        this.dataStorage.fetchRecipes();
+        //this.dataStorage.fetchRecipes();
     }
 
     onLogout(){
-        this.authService.logOut();
+        //this.authService.logOut();
     }
 }

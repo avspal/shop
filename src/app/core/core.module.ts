@@ -1,3 +1,4 @@
+import { ConstantsService } from './../shared/constants.service';
 import { NgModule } from "@angular/core";
 
 import { HeaderComponent } from "./header/header.component";
@@ -23,7 +24,7 @@ import { AuthGuard } from "../auth/auth-guard.service";
         AppRouteModule,
         HeaderComponent
     ],
-    providers : [ShoppingListService,RecipeService, DataStorageService, AuthService]
+    providers : [ConstantsService,ShoppingListService,RecipeService, DataStorageService, AuthService]
 })
 export class CoreModule{
 
